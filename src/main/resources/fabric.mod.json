@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "doublebooks",
+  "version": "${version}",
+  "name": "Double books",
+  "description": "Shows 2 book pages at once",
+  "authors": [
+    "White_145Gaming"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/double-books",
+    "sources": "https://github.com/White-145/double-books",
+    "issues": "https://github.com/White-145/double-books/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/doublebooks/icon.png",
+  "accessWidener": "doublebooks.accesswidener",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.white.doublebooks.DoubleBooks"
+    ]
+  },
+  "mixins": [
+    "doublebooks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

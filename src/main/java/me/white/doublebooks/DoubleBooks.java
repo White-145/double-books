@@ -1,4 +1,8 @@
-package me.white.doublebooks.mixin;
+package me.white.doublebooks;
 
-public class DoubleBooks {
+import net.fabricmc.api.ClientModInitializer;
+
+public class DoubleBooks implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() { }
 }

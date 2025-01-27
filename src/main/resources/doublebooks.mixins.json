@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "me.white.doublebooks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BookScreenMixin",
+    "LecternScreenMixin"
+  ]
+}
